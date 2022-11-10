@@ -1,0 +1,44 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: var(--darkgrey);
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.hero .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col-1 {
+    padding: 1rem 1rem 1rem 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col-1 h1 {
+    font-size: 3rem; 
+    font-weight: 700;
+    color: var(--white);
+}
+
+.col-1 p {
+    font-size: 1rem;
+    color: var(--white);
+    line-height: 1.4;
+    margin-top: 1.2rem;
+}
+
+.col-1 .used-by p {
+    color: var(--lightgrey);
+    font-size: .7rem;
+    margin: 2rem 0 1rem 0;
+}
+
